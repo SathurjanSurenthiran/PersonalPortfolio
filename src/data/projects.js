@@ -1,4 +1,9 @@
-const baseUrl = import.meta.env.BASE_URL;
+import cloths from '../assets/projects/cloths.webp';
+import handcraft from '../assets/projects/handcraft.webp';
+import bookfair from '../assets/projects/bookfair.webp';
+import notes from '../assets/projects/notes.webp';
+import studentmanage from '../assets/projects/studentmanage.jpg';
+import calculater from '../assets/projects/calculater.webp';
 
 export const projects = [
   {
@@ -6,7 +11,7 @@ export const projects = [
     title: "Clothing E-commerce Website",
     description:
       "Modern online clothing store with product browsing, shopping cart, secure checkout, and responsive user experience.",
-    image: `${baseUrl}assets/projects/cloths.webp`,
+    image: cloths,
     category: "Full Stack",
     technologies: ["React", "Node.js", "MySQL", "Stripe"],
     metrics: "Improved customer shopping experience",
@@ -17,7 +22,7 @@ export const projects = [
     title: "Handcraft Products E-commerce Website",
     description:
       "Online marketplace for handmade products with product management, order tracking, and secure payment integration.",
-    image: `${baseUrl}assets/projects/handcraft.webp`,
+    image: handcraft,
     category: "Full Stack",
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
     metrics: "Enhanced product visibility and sales",
@@ -28,7 +33,7 @@ export const projects = [
     title: "Book Fair Reservation System",
     description:
       "Web-based booking system for reserving book fair stalls and visitor slots with schedule management and admin control.",
-    image: `${baseUrl}assets/projects/bookfair.webp`,
+    image: bookfair,
     category: "Web Apps",
     technologies: ["React", "PHP", "MySQL", "Bootstrap"],
     metrics: "Simplified reservation and event management",
@@ -39,7 +44,7 @@ export const projects = [
     title: "Notes Taking App",
     description:
       "Simple and efficient note-taking application with create, edit, delete, and organize features for daily productivity.",
-    image: `${baseUrl}assets/projects/notes.webp`,
+    image: notes,
     category: "UI Components",
     technologies: ["React", "JavaScript", "Local Storage", "Tailwind CSS"],
     metrics: "Improved personal productivity workflow",
@@ -50,7 +55,7 @@ export const projects = [
     title: "Student Management System",
     description:
       "Management system for handling student records, attendance, results, and academic details with admin dashboard support.",
-    image: `${baseUrl}assets/projects/studentmanage.jpg`,
+    image: studentmanage,
     category: "Full Stack",
     technologies: ["Java", "Spring Boot", "MySQL", "React"],
     metrics: "Streamlined academic record management",
@@ -61,7 +66,7 @@ export const projects = [
     title: "Calculator App",
     description:
       "Modern calculator application with basic arithmetic operations, clean UI design, and responsive functionality for daily use.",
-    image: `${baseUrl}assets/projects/calculater.webp`,
+    image: calculater,
     category: "UI Components",
     technologies: ["React", "JavaScript", "CSS", "Tailwind CSS"],
     metrics: "Improved fast and accurate calculations",
