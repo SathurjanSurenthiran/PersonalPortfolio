@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sathurjansurenthiran.github.io/Personal_Portfolio/",
+  "homepage": "https://sathurjansurenthiran.github.io/PersonalPortfolio/",
  "scripts": {
   "dev": "vite",
   "build": "vite build",

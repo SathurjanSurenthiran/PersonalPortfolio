@@ -4,5 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig(({ command }) => ({
   plugins: [react(), tailwindcss()],
-  base: command === 'serve' ? '/' : '/Personal_Portfolio/',
+  base: command === 'serve' ? '/' : '/PersonalPortfolio/',
 }))
