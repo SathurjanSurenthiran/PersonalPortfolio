@@ -1,3 +1,5 @@
+import resumeFile from '../assets/resume.pdf';
+
 export const PERSONAL_INFO = {
   name: "Sathurjan",
   fullName: "Surenthiran Sathurjan",
@@ -5,7 +7,7 @@ export const PERSONAL_INFO = {
   email: "sathurjan.official@gmail.com",
   location: "Colombo, Sri Lanka",
   tagline: "Crafting seamless digital experiences with modern web technologies",
-  resume: `${import.meta.env.BASE_URL}assets/resume.pdf`,
+  resume: resumeFile,
 
   bio: [
      "I am a Software Engineer passionate about building real-world, impactful software solutions. I enjoy solving complex problems, writing clean and maintainable code, and continuously improving my technical skills.",

@@ -2,10 +2,10 @@ import React from "react";
 import { MapPin, GraduationCap } from "lucide-react";
 import FadeIn from "../animations/FadeIn";
 import RadialGradientBackground from "../backgrounds/RadialGradientBackground";
+import kelaniya from '../../assets/logos/kelaniya.webp';
+import school from '../../assets/logos/school.jpeg';
 
 const Experience = () => {
-  const baseUrl = import.meta.env.BASE_URL;
-
   const education = [
     {
       id: 1,
@@ -16,7 +16,7 @@ const Experience = () => {
       gpa: "GPA: 3.358",
       description:
         "Currently pursuing Software Engineering with focus on full-stack development, software architecture, and modern web technologies.",
-      logo: `${baseUrl}assets/logos/kelaniya.webp`,
+      logo: kelaniya,
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ const Experience = () => {
       subjects: "Mathematics, Physics, Chemistry",
       description:
         "Completed Advanced Level education in Physical Science stream with strong academic performance and leadership experience.",
-      logo: `${baseUrl}assets/logos/school.jpeg`,
+      logo: school,
     },
   ];
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Code, Menu, X, Moon, Sun } from "lucide-react";
 import { NAV_LINKS, PERSONAL_INFO } from "../../utils/constants";
 import { scrollToSection, useScrollSpy } from "../../hooks/useScrollSpy";
+import arrow from '../../assets/arrow.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -74,7 +75,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center gap-4">
             <img
-              src={`${import.meta.env.BASE_URL}assets/arrow.png`}
+              src={arrow}
               alt="Logo"
               className="w-6 h-6 object-contain"
             />

@@ -10,9 +10,10 @@ import { PERSONAL_INFO, SOCIAL_LINKS, STATS } from "../../utils/constants";
 import FadeIn from "../animations/FadeIn";
 import { scrollToSection } from "../../hooks/useScrollSpy";
 import RadialGradientBackground from "../backgrounds/RadialGradientBackground";
+import portrait from '../../assets/portait_photo.png';
 
 const Hero = () => {
-  const baseUrl = import.meta.env.BASE_URL;
+  
 
   return (
     <section className="relative min-h-screen flex items-center bg-slate-50 text-gray-900 dark:bg-black dark:text-white overflow-hidden">
@@ -158,7 +159,7 @@ const Hero = () => {
 
                 <div className="relative rounded-2xl overflow-hidden m-[2px] h-[calc(100%-4px)]">
                   <img
-                    src={`${baseUrl}assets/portait_photo.png`}
+                    src={portrait}
                     alt="Developer"
                     className="w-full h-full object-cover"
                   />
